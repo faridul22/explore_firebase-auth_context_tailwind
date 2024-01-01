@@ -4,7 +4,7 @@ import { AuthContext } from '../Providers/AuthProvider';
 
 const Login = () => {
     const { signIn, singInWithGoogle } = useContext(AuthContext);
-    console.log(signIn)
+    // console.log(signIn)
 
     const handleLogin = event => {
         event.preventDefault();
